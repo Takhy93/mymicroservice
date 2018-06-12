@@ -30,7 +30,7 @@ describe('Test suit 1', () => {
         });
 
         it('should return "Hello there !" for "Hello" msg', () => {
-            expect(DM.requestSyncMsg('Hello')).to.equal('yo there !');
+            expect(DM.requestSyncMsg('Hello')).to.equal('Hello there !');
         });
     });
 
